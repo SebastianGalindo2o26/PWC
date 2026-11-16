@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&family=Noto+Serif:wght@400;500;600&display=swap');
+:root{--carbon:#120e0b;--madera:#1d1712;--veta:#2b221a;--hueso:#efe6d8;--humo:#a69a8b;--laton:#d9b47c;--brasa:#c4652f;color:var(--hueso);background:var(--carbon);font-family:'DM Sans',sans-serif;font-synthesis:none}*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:86px}body{margin:0}button,input,select,textarea{font:inherit}button{cursor:pointer}a{color:inherit;text-decoration:none}h1,h2,h3,h4,p,blockquote{margin-top:0}h2,h3,.brand,blockquote{font-family:'Cormorant Garamond',serif}h2{font-size:clamp(46px,6vw,72px);font-weight:500;line-height:1.05}h3{font-weight:500}.content{max-width:1180px;margin:auto;padding-left:24px;padding-right:24px}.notice{height:34px;background:var(--brasa);display:flex;align-items:center;justify-content:center;padding:0 34px;text-align:center;font-size:11px;letter-spacing:.05em}.notice button{position:absolute;right:15px;background:none;border:0;color:var(--hueso);display:grid;place-items:center}.header{position:absolute;top:34px;left:0;right:0;height:78px;z-index:10;display:flex;align-items:center;justify-content:space-between;padding:0 3%;background:linear-gradient(to bottom,rgba(18,14,11,.95),transparent)}.icon-button,.mobile-phone{background:none;border:0;color:var(--hueso);display:grid;place-items:center;padding:10px}.header-brand{position:absolute;left:50%;transform:translateX(-50%)}.brand{display:inline-flex;flex-direction:column;align-items:center;text-transform:uppercase;white-space:nowrap;line-height:.9}.brand strong{font-size:23px;letter-spacing:.16em;font-weight:600;padding-left:.16em}.brand-rule{display:flex;align-items:center;gap:8px;margin-top:8px;color:var(--laton);font-size:14px;font-style:italic;text-transform:none;letter-spacing:.04em}.brand-rule i{width:27px;height:1px;background:var(--brasa)}.brand-large strong{font-size:clamp(53px,10vw,125px);letter-spacing:.13em}.brand-large .brand-rule{font-size:clamp(22px,3vw,38px);gap:20px;margin-top:16px}.brand-large .brand-rule i{width:clamp(60px,12vw,150px)}.header-actions{margin-left:auto}.outline-btn,.solid-btn{min-height:47px;padding:11px 25px;border:1px solid var(--laton);display:inline-flex;align-items:center;justify-content:center;gap:11px;color:var(--hueso);font-size:13px;font-weight:600;transition:.2s}.solid-btn{background:var(--laton);color:var(--carbon)}.outline-btn:hover,.solid-btn:hover{background:var(--hueso);border-color:var(--hueso);color:var(--carbon)}.mobile-phone{display:none}.drawer-wrap{position:fixed;inset:0;z-index:50}.drawer-backdrop{position:absolute;inset:0;border:0;background:rgba(0,0,0,.65);width:100%}.drawer{position:absolute;left:0;top:0;bottom:0;width:min(380px,90vw);background:var(--madera);padding:45px 28px;overflow:auto;box-shadow:15px 0 50px #0009}.drawer .brand{margin-bottom:35px}.drawer>a{display:flex;justify-content:space-between;align-items:center;padding:14px 0;border-bottom:1px solid var(--veta);font-family:'Cormorant Garamond';font-size:25px}.drawer>a svg{color:var(--laton)}.drawer-close{position:absolute;right:20px;top:20px;background:none;border:0;color:var(--hueso)}.hero{height:min(850px,100svh);min-height:610px;position:relative;display:grid;place-items:center;text-align:center;overflow:hidden}.photo-space{position:relative;display:flex;justify-content:center;align-items:center;background:linear-gradient(135deg,#30251b,#1b1713 52%,#342719);border:1px solid #55412c;min-height:180px;color:#897e70;font-size:10px;letter-spacing:.16em;text-align:center}.photo-space:before,.photo-space:after{content:'';position:absolute;left:50%;top:50%;width:1px;height:130%;background:#d9b47c10;transform:rotate(45deg)}.photo-space:after{transform:rotate(-45deg)}.photo-space>span:last-child{z-index:1;border:1px solid #a69a8b5a;background:#120e0b9c;padding:10px 13px}.photo-corners{position:absolute;inset:18px;border:1px solid #d9b47c30}.hero-photo{position:absolute;inset:0;border:0}.hero-shade{position:absolute;inset:0;background:linear-gradient(to bottom,rgba(18,14,11,.58),rgba(18,14,11,.25) 35%,rgba(18,14,11,.82))}.hero-inner{position:relative;z-index:1;padding:110px 20px 0;display:flex;flex-direction:column;align-items:center}.hero h1{margin:0;font-weight:500}.hero-inner p{margin:26px 0 34px;font-family:'Cormorant Garamond';font-size:clamp(23px,2.7vw,34px)}.hero-buttons{display:flex;gap:12px}.hero-buttons>a{min-width:175px}.intro{text-align:center;padding-top:110px;padding-bottom:112px}.intro h2{max-width:770px;margin:0 auto 30px}.intro p{max-width:680px;margin:auto;color:#d1c7b9;line-height:1.9;font-size:16px}.specialties{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;padding:0 12px}.specialty{position:relative;aspect-ratio:4/5;overflow:hidden}.specialty .photo-space{position:absolute;inset:0;border:0;transition:transform .7s}.specialty:hover .photo-space{transform:scale(1.03)}.specialty-shade{position:absolute;inset:0;background:linear-gradient(to top,#120e0be8,transparent 68%)}.specialty-copy{position:absolute;left:0;bottom:0;padding:33px}.specialty-copy h3{font-size:38px;text-transform:uppercase;letter-spacing:.05em;margin-bottom:8px}.specialty-copy p{font-size:13px;line-height:1.6;color:#dfd5c7;max-width:280px}.specialty-copy span{color:var(--laton);font-size:13px;border-bottom:1px solid var(--laton);padding-bottom:4px}.dayparts{background:var(--madera);border-top:1px solid var(--veta);border-bottom:1px solid var(--veta);padding:80px 24px}.dayparts-inner{max-width:1150px;margin:auto;display:grid;grid-template-columns:repeat(3,1fr)}.dayparts-inner>div{text-align:center;padding:22px 28px;border-right:1px solid var(--veta)}.dayparts-inner>div:last-child{border:0}.dayparts em{font-family:'Cormorant Garamond';font-size:23px;color:var(--laton)}.dayparts h3{font-size:45px;text-transform:uppercase;letter-spacing:.05em;margin:8px 0 10px}.dayparts p{font-size:13px;line-height:1.7;color:var(--humo);margin:0}.menu-section{padding-top:105px;padding-bottom:110px;text-align:center}.section-desc{color:var(--humo);line-height:1.7;max-width:530px;margin:0 auto 43px}.tabs{display:flex;overflow:auto;gap:5px;border-top:1px solid var(--veta);border-bottom:1px solid var(--veta);padding:11px 0;scrollbar-width:none;margin-bottom:45px}.tabs button{border:1px solid transparent;background:transparent;color:var(--humo);padding:12px 18px;white-space:nowrap}.tabs button.active{color:var(--carbon);background:var(--laton)}.menu-panel{text-align:left;display:grid;grid-template-columns:.75fr 1.25fr;gap:65px}.overline{font-size:10px;color:var(--laton);letter-spacing:.17em}.menu-panel h3{font-size:55px;margin:14px 0 8px}.menu-panel>div:first-child>p{color:var(--humo)}.dishes article{display:flex;justify-content:space-between;gap:20px;padding:20px 0;border-bottom:1px solid var(--veta)}.dishes article:first-child{padding-top:0}.dishes h4{font-family:'Cormorant Garamond';font-size:28px;font-weight:500;margin-bottom:5px}.dishes p{font-size:13px;line-height:1.6;color:var(--humo);margin:0}.dishes strong{color:var(--laton);font-weight:500;white-space:nowrap}.original{padding-top:95px;padding-bottom:100px;border-top:1px solid var(--veta)}.original>div:first-child{display:flex;align-items:end;justify-content:space-between;gap:20px}.original h2{margin-bottom:30px}.original p{max-width:420px;line-height:1.7;color:var(--humo)}.original-pages{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.original-pages .photo-space{aspect-ratio:3/4}.gallery{padding-top:90px;padding-bottom:95px;border-top:1px solid var(--veta);text-align:center}.gallery-grid{display:grid;grid-template-columns:repeat(3,1fr);grid-auto-rows:260px;gap:8px}.gallery-grid .photo-space:first-child{grid-row:span 2}.gallery-fact{display:flex;flex-direction:column;align-items:center;justify-content:center;background:var(--madera);padding:20px}.gallery-fact strong{font-family:'Cormorant Garamond';font-size:46px;font-weight:500}.gallery-fact span{color:var(--humo);font-size:13px;line-height:1.6}.reservation{display:grid;grid-template-columns:1fr 1.2fr;gap:12%;padding-top:110px;padding-bottom:110px}.reservation>div>p{color:#d0c6b9;line-height:1.8;margin:25px 0 38px}.reservation>div>a{display:flex;align-items:center;gap:14px;margin:17px 0;color:var(--laton)}.reservation form{display:flex;flex-direction:column;gap:20px}.reservation label{display:flex;flex-direction:column;gap:8px;font-size:12px;color:var(--humo)}.reservation input,.reservation select,.reservation textarea{width:100%;border:0;border-bottom:1px solid #5a4a39;background:transparent;color:var(--hueso);padding:11px 2px;outline:none}.reservation input:focus,.reservation select:focus,.reservation textarea:focus{border-color:var(--laton)}.reservation select option{background:var(--carbon)}.form-row{display:grid;grid-template-columns:1fr 1fr;gap:20px}.reservation form .solid-btn{align-self:start;margin-top:8px}.location{display:grid;grid-template-columns:1fr 1fr;min-height:570px;border-top:1px solid var(--veta);border-bottom:1px solid var(--veta)}.map-panel{background:#181715;display:flex;align-items:center;justify-content:center;flex-direction:column;text-align:center;gap:20px;padding:30px;color:var(--laton)}.map-panel p{color:var(--humo);line-height:1.7}.location-details{padding:70px 8%}.location-details h2{margin-bottom:32px}.location-details h3{font-size:27px;text-transform:uppercase;letter-spacing:.05em;margin:23px 0 7px}.location-details p{color:#d0c6b9;line-height:1.6;margin:0}.location-details a:hover{color:var(--laton)}.testimonial{text-align:center;padding-top:95px;padding-bottom:100px}.testimonial blockquote{font-size:clamp(30px,4vw,48px);font-style:italic;max-width:700px;margin:35px auto 20px}.testimonial a{font-size:13px;color:var(--laton)}.faq{padding-top:30px;padding-bottom:110px;max-width:830px}.faq h2{text-align:center;margin-bottom:40px}.faq article{border-top:1px solid var(--veta)}.faq article:last-child{border-bottom:1px solid var(--veta)}.faq button{width:100%;border:0;background:transparent;color:var(--hueso);display:flex;align-items:center;justify-content:space-between;text-align:left;gap:15px;padding:22px 0;font-family:'Cormorant Garamond';font-size:27px}.faq button svg{color:var(--laton);transition:transform .2s;flex-shrink:0}.faq button svg.rotated{transform:rotate(45deg)}.faq article p{max-width:610px;line-height:1.7;color:#d0c6b9;padding-bottom:22px;margin:0}.footer-cta{background:var(--madera);border-top:1px solid var(--veta);border-bottom:1px solid var(--veta);padding:50px;text-align:center}.footer-main{max-width:1200px;margin:auto;padding:65px 25px;display:flex;justify-content:space-between;gap:30px}.footer-main>div{text-align:right;display:flex;flex-direction:column;gap:7px;color:#d0c6b9;line-height:1.6}.footer-main p{margin:0}.footer-main a:hover{color:var(--laton)}.footer-bottom{text-align:center;border-top:1px solid var(--veta);padding:20px;color:var(--humo);font-size:12px}.floating-phone{position:fixed;right:20px;bottom:20px;width:54px;height:54px;border-radius:50%;display:grid;place-items:center;background:var(--laton);color:var(--carbon);z-index:30;box-shadow:0 10px 25px #0008}
+@media(max-width:700px){.notice{font-size:9px;padding:0 36px 0 14px}.header{padding:0 12px}.header-actions .outline-btn{display:none}.mobile-phone{display:grid}.brand strong{font-size:18px}.brand-rule{font-size:11px}.brand-rule i{width:17px}.brand-large strong{font-size:clamp(38px,10vw,70px)}.brand-large .brand-rule{font-size:23px;gap:10px}.brand-large .brand-rule i{width:55px}.hero{min-height:600px;height:90svh}.hero-inner p{font-size:22px;max-width:300px}.hero-buttons{flex-direction:column;width:225px}.intro{padding-top:75px;padding-bottom:75px}.intro p{font-size:14px}.specialties{display:flex;overflow:auto;scroll-snap-type:x mandatory}.specialty{width:82vw;flex-shrink:0;scroll-snap-align:center}.specialty-copy{padding:25px}.dayparts{padding:45px 20px}.dayparts-inner{grid-template-columns:1fr}.dayparts-inner>div{border-right:0;border-bottom:1px solid var(--veta);padding:25px}.dayparts-inner>div:last-child{border:0}.menu-section,.original,.gallery{padding-top:75px;padding-bottom:75px}.menu-panel{grid-template-columns:1fr;gap:24px}.menu-panel h3{font-size:42px}.original>div:first-child{display:block}.original-pages{grid-template-columns:repeat(2,1fr)}.original-pages .photo-space:last-child{display:none}.gallery-grid{grid-template-columns:1fr 1fr;grid-auto-rows:180px}.gallery-grid .photo-space:first-child{grid-row:span 2}.gallery-fact strong{font-size:31px}.gallery-fact span{font-size:10px}.reservation{grid-template-columns:1fr;gap:40px;padding-top:75px;padding-bottom:75px}.location{grid-template-columns:1fr}.map-panel{min-height:330px}.location-details{padding:60px 25px}.testimonial{padding-top:75px;padding-bottom:75px}.faq{padding-bottom:75px}.faq button{font-size:23px}.footer-main{flex-direction:column;align-items:center;text-align:center;padding:45px 20px}.footer-main>div{text-align:center}.footer-bottom{padding-bottom:85px}}
+
+/* Menu layout follows the reference: scrollable underlined tabs, detailed dishes and the printed card. */
+.menu-section{max-width:none;padding-left:0;padding-right:0;text-align:left}
+.menu-intro{text-align:center}
+.menu-intro h2{margin-bottom:16px}
+.tabs-wrap{position:sticky;top:0;z-index:8;background:rgba(18,14,11,.96);backdrop-filter:blur(12px);border-top:1px solid var(--veta);border-bottom:1px solid var(--veta)}
+.tabs{border:0;margin:0;padding:0;gap:0;max-width:1180px;scrollbar-width:none}
+.tabs button{position:relative;border:0;border-radius:0;background:transparent!important;color:var(--humo);font-family:'Cormorant Garamond',serif;font-size:20px;padding:16px 19px}
+.tabs button.active{color:var(--hueso)}
+.tabs button:after{content:'';position:absolute;left:15px;right:15px;bottom:0;height:1px;background:var(--laton);transform:scaleX(0);transition:transform .2s}
+.tabs button.active:after{transform:scaleX(1)}
+.menu-panel{display:block;max-width:1180px;text-align:left}
+.menu-panel-head{display:flex;justify-content:space-between;align-items:flex-end;gap:25px;border-bottom:1px solid var(--veta);padding:47px 0}
+.menu-panel-head h3{font-size:clamp(42px,6vw,60px);text-transform:uppercase;letter-spacing:.05em;margin:0 0 10px}
+.menu-panel-head em{font-family:'Cormorant Garamond',serif;font-size:23px;color:var(--laton)}
+.menu-panel-head p{max-width:660px;color:#d0c6b9;line-height:1.6;font-size:14px;margin:13px 0 0}
+.menu-panel-head .outline-btn{flex-shrink:0}
+.dishes{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:48px}
+.dishes .dish{display:flex;justify-content:space-between;gap:15px;padding:24px 0;border-bottom:1px solid var(--veta)}
+.dishes .dish:first-child{padding-top:24px}
+.dish h4{font-size:25px;margin-bottom:4px}
+.dish small{display:block;color:var(--laton);font-size:11px;margin-bottom:6px}
+.dish p{font-size:13px;line-height:1.6;color:#c6bbad;margin:0}
+.dish strong{color:var(--laton);white-space:nowrap;font-size:15px;font-weight:500}
+.dish-option{margin-top:8px!important}
+.dish-option b{color:var(--laton);font-weight:500}
+.menu-group{padding-top:55px}
+.menu-group>h4{font-family:'Cormorant Garamond',serif;font-size:38px;text-transform:uppercase;font-weight:500;margin:0 0 15px}
+.drinks-table{border-top:1px solid var(--veta)}
+.drinks-row{display:grid;grid-template-columns:2fr repeat(3,1fr);gap:10px;padding:13px 6px;border-bottom:1px solid var(--veta);font-size:13px}
+.drinks-row span:not(:first-child){text-align:right}
+.drinks-heading{color:var(--laton)}
+.category-nav{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:60px}
+.category-nav button{background:transparent;color:var(--laton);border:1px solid var(--veta);padding:18px;display:flex;align-items:center;justify-content:space-between;gap:10px;font-size:23px}
+.category-nav button:hover{border-color:var(--laton)}
+.category-nav button span{display:flex;flex-direction:column;color:var(--humo);font-size:11px;text-align:left}
+.category-nav button:last-child span{text-align:right}
+.category-nav b{font-family:'Cormorant Garamond',serif;font-weight:500;color:var(--hueso);font-size:21px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.original{border-top:0;padding-top:0}
+.original-head{display:flex!important;align-items:flex-end;justify-content:space-between;gap:25px;border-top:1px solid var(--veta);padding-top:45px;margin-bottom:28px}
+.original-head h2{font-size:37px;text-transform:uppercase;letter-spacing:.06em;margin-bottom:8px}
+.original-head p{margin:0}
+.original-pages{display:grid;grid-template-columns:repeat(8,minmax(0,1fr));gap:12px}
+.original-page{min-width:0}
+.original-page .photo-space{width:100%;aspect-ratio:3/4;min-height:0;font-size:8px}
+.original-page .photo-space>span:last-child{padding:5px}
+.original-page>span{display:block;margin-top:8px;color:var(--humo);font-size:11px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.reservation input,.reservation select,.reservation textarea{appearance:none;-webkit-appearance:none;min-height:45px;color-scheme:dark;background:var(--madera);border:1px solid var(--veta);padding:10px 14px;border-radius:2px}
+.reservation input:focus,.reservation select:focus,.reservation textarea:focus{border-color:var(--laton)}
+.reservation input::placeholder,.reservation textarea::placeholder{color:#8d8174}
+.reservation input[type=date]::-webkit-calendar-picker-indicator{filter:invert(.8) sepia(.2)}
+.reservation select{background-image:linear-gradient(45deg,transparent 50%,var(--laton) 50%),linear-gradient(135deg,var(--laton) 50%,transparent 50%);background-position:calc(100% - 20px) 20px,calc(100% - 15px) 20px;background-size:5px 5px;background-repeat:no-repeat;padding-right:38px}
+.map-panel{position:relative;overflow:hidden;background:#1b1b19;padding:0}
+.map-panel iframe{position:absolute;inset:0;width:100%;height:100%;border:0;filter:grayscale(1) invert(.92) contrast(.9) brightness(.85);z-index:1}
+.map-fallback{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:14px;color:var(--humo);font-size:13px;text-align:center;padding:20px}
+.map-button{position:absolute;bottom:30px;left:50%;transform:translateX(-50%);z-index:2;white-space:nowrap;box-shadow:0 12px 30px #0008}
+@media(max-width:700px){.menu-section{padding-top:75px}.menu-panel-head{display:block}.menu-panel-head .outline-btn{margin-top:24px}.dishes{grid-template-columns:1fr}.original-head{display:block!important}.original-head .outline-btn{margin-top:20px}.original-pages{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none}.original-page{width:38vw;flex-shrink:0;scroll-snap-align:start}.original-pages .photo-space:last-child{display:flex}.category-nav b{font-size:17px}.drinks-row{font-size:11px}.map-panel{min-height:360px}}
+
+/* Layout at tablet and phone widths */
+.photo-space{overflow:hidden}
+.drawer{max-height:100dvh;overscroll-behavior:contain}
+.category-nav{grid-template-columns:repeat(2,minmax(0,1fr))}
+.category-nav button,.category-nav button span,.category-nav b{min-width:0}
+.category-nav button{justify-content:flex-start;gap:9px}
+.category-nav button:last-child{justify-content:flex-end}
+.form-row label,.reservation form,.reservation input,.reservation select{min-width:0}
+@media(max-width:1024px){
+  .content{padding-left:28px;padding-right:28px}
+  .specialty-copy{padding:23px}
+  .specialty-copy h3{font-size:31px}
+  .original-pages{grid-template-columns:repeat(4,minmax(0,1fr))}
+  .reservation{gap:7%}
+  .gallery-grid{grid-auto-rows:220px}
+}
+@media(max-width:800px){
+  .specialties{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;padding:0 14px 10px;gap:12px}
+  .specialty{width:46vw;min-width:300px;flex:none;scroll-snap-align:center}
+  .reservation{grid-template-columns:1fr;gap:35px}
+  .reservation>div>p{max-width:560px}
+  .location-details{padding:55px 8%}
+  .dayparts-inner>div{padding:18px}
+  .dayparts h3{font-size:35px}
+  .gallery-grid{grid-auto-rows:190px}
+}
+@media(max-width:700px){
+  .content{padding-left:20px;padding-right:20px}
+  .hero{min-height:560px}
+  .hero-inner{width:100%;padding-left:12px;padding-right:12px}
+  .hero-buttons{max-width:100%}
+  .specialty{width:82vw;min-width:0}
+  .specialty-copy h3{font-size:clamp(28px,8vw,38px)}
+  .original-pages{display:flex;gap:12px;padding-bottom:12px}
+  .original-page{width:39vw;min-width:130px}
+  .gallery-grid{grid-template-columns:repeat(2,minmax(0,1fr));grid-auto-rows:170px}
+  .gallery-fact{padding:12px}
+  .form-row{gap:12px}
+  .reservation{gap:24px}
+  .reservation form{width:100%}
+  .location{grid-template-columns:1fr}
+  .map-panel{min-height:340px}
+  .footer-main{gap:28px}
+}
+@media(max-width:420px){
+  .header{height:68px}
+  .header-brand .brand strong{font-size:15px}
+  .header-brand .brand-rule{font-size:10px;gap:5px;margin-top:6px}
+  .header-brand .brand-rule i{width:14px}
+  .hero{min-height:540px}
+  .brand-large strong{font-size:clamp(29px,9.5vw,40px);letter-spacing:.1em;padding-left:.1em}
+  .brand-large .brand-rule{font-size:19px;gap:8px}
+  .brand-large .brand-rule i{width:42px}
+  .hero-inner p{font-size:20px;margin:22px 0 27px}
+  .hero-buttons{width:220px}
+  .intro h2,.menu-intro h2,.gallery h2,.reservation h2,.location h2,.faq h2{font-size:clamp(39px,11vw,48px)}
+  .menu-panel-head h3{font-size:36px}
+  .tabs button{font-size:18px;padding:14px 15px}
+  .category-nav{gap:8px}
+  .category-nav button{padding:12px 9px;font-size:18px}
+  .category-nav b{font-size:15px;max-width:100%}
+  .form-row{grid-template-columns:1fr}
+  .reservation form .solid-btn{width:100%}
+  .gallery-grid{grid-auto-rows:145px}
+  .gallery-fact strong{font-size:28px}
+  .gallery-fact span{font-size:9px}
+  .notice{font-size:8px;line-height:1.25}
+}
+
+.reservation-trap{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
+.reservation form .solid-btn:disabled{opacity:.65;cursor:wait}
+.reservation-feedback{margin:2px 0 0;padding:13px 16px;border:1px solid var(--veta);font-size:13px;line-height:1.6}
+.reservation-feedback.success{border-color:#80956d;color:#d8e7c9;background:#263020}
+.reservation-feedback.error{border-color:#b06b53;color:#f1c1af;background:#322019}
+.reservation-feedback a{text-decoration:underline;text-underline-offset:3px}
+.testimonial-source{color:var(--hueso);font-size:13px;margin:0}
+.testimonial-source a{color:var(--laton)}
+@media(max-width:350px){
+  .header-brand .brand strong{font-size:13px}
+  .icon-button,.mobile-phone{padding:6px}
+  .brand-large strong{font-size:29px}
+  .hero-buttons{width:200px}
+  .specialty-copy{padding:18px}
+  .specialty-copy p{font-size:12px}
+  .gallery-grid{grid-auto-rows:130px}
+}
+@media(max-height:560px) and (orientation:landscape){.hero{min-height:480px;height:auto}.hero-inner{padding-top:130px;padding-bottom:55px}}
+
+/* Type hierarchy and the menu's future dish photographs */
+:root{font-family:'Noto Serif',Georgia,serif}
+body{font-family:'Noto Serif',Georgia,serif;font-size:15px;line-height:1.65}
+h2,h3,.brand,blockquote{font-family:'Cormorant Garamond',Georgia,serif}
+h2{font-size:clamp(48px,6vw,76px);line-height:1.02;letter-spacing:.005em}
+.intro h2{font-size:clamp(48px,5.8vw,72px);max-width:810px}
+.intro p{font-size:16px;line-height:1.9}
+.section-desc{font-size:15px;line-height:1.8}
+.specialty-copy h3{font-size:clamp(31px,3.2vw,43px);line-height:1.05}
+.specialty-copy p{font-size:14px;line-height:1.7}
+.dayparts em{font-size:24px}
+.dayparts h3{font-size:clamp(36px,4vw,50px);line-height:1}
+.dayparts p{font-size:13px}
+.tabs button{font-size:21px}
+.menu-panel-head h3{font-size:clamp(48px,6vw,66px);line-height:.98}
+.menu-panel-head em{font-size:25px}
+.menu-panel-head p{font-size:14px;line-height:1.8}
+.dishes{column-gap:44px}
+.dishes .dish,.dishes .dish:first-child{display:flex;align-items:flex-start;gap:20px;padding:25px 0}
+.dish-main{flex:1;min-width:0}
+.dish-title-row{display:flex;align-items:baseline;gap:12px;min-width:0}
+.dish-title-row h4{font-family:'Cormorant Garamond',Georgia,serif;font-size:27px;line-height:1.08;font-weight:600;margin:0;flex-shrink:1}
+.dish-title-row i{align-self:baseline;flex:1;min-width:8px;border-bottom:1px dotted #5e4a36;transform:translateY(-4px)}
+.dish-title-row strong{margin-left:auto;color:var(--laton);font-size:16px;font-weight:500;white-space:nowrap}
+.dish small{font-family:'Cormorant Garamond',Georgia,serif;font-size:19px;font-style:italic;color:var(--laton);margin:4px 0 0}
+.dish p{font-size:13px;line-height:1.75;color:var(--humo);margin:8px 0 0}
+.dish-photo{position:relative;width:96px;height:96px;flex:0 0 96px;display:grid;place-items:center;overflow:hidden;border:1px solid #604a33;background:radial-gradient(circle at 40% 35%,#3b2b1d,#1d1712 68%);color:#a38968}
+.dish-photo.is-round{border-radius:50%}
+.dish-photo:before,.dish-photo:after{content:'';position:absolute;width:140%;height:1px;background:#d9b47c30;transform:rotate(45deg)}
+.dish-photo:after{transform:rotate(-45deg)}
+.dish-photo span{position:relative;z-index:1;display:grid;place-items:center;width:28px;height:28px;border:1px solid #d9b47c66;border-radius:50%;font-family:'Cormorant Garamond',serif;font-size:19px;line-height:1}
+.dish-featured{grid-column:1/-1;background:var(--madera);border:1px solid var(--veta)!important;padding:20px!important;margin:18px 0 6px}
+.dish-featured .dish-photo{width:180px;height:145px;flex-basis:180px}
+.dish-featured .dish-title-row h4{font-size:34px}
+.original-head h2{font-size:41px}
+.reservation>div>p{font-size:15px}
+.location-details h3{font-size:29px}
+.faq button{font-size:29px}
+.outline-btn,.solid-btn{font-family:'Noto Serif',Georgia,serif;font-size:12px;line-height:1.3}
+@media(max-width:800px){.dishes{column-gap:28px}.dish-featured .dish-photo{width:145px;height:125px;flex-basis:145px}}
+@media(max-width:700px){
+  .intro h2,.menu-intro h2,.gallery h2,.reservation h2,.location h2,.faq h2{font-size:clamp(44px,11vw,58px)}
+  .intro p{font-size:14px}
+  .menu-panel-head h3{font-size:46px}
+  .dish-photo{width:84px;height:84px;flex-basis:84px}
+  .dish-title-row h4{font-size:25px}
+  .dish-featured .dish-photo{width:105px;height:105px;flex-basis:105px}
+  .dish-featured .dish-title-row h4{font-size:28px}
+  .faq button{font-size:25px}
+}
+@media(max-width:420px){
+  .dishes .dish,.dishes .dish:first-child{gap:13px;padding:20px 0}
+  .dish-photo{width:72px;height:72px;flex-basis:72px}
+  .dish-title-row{gap:7px;flex-wrap:wrap}
+  .dish-title-row h4{font-size:23px}
+  .dish-title-row i{display:none}
+  .dish-title-row strong{font-size:14px}
+  .dish p{font-size:12px}
+  .dish-featured{padding:13px!important}
+  .dish-featured .dish-photo{width:80px;height:80px;flex-basis:80px}
+  .dish-featured .dish-title-row h4{font-size:25px}
+}

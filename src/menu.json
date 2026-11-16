@@ -1,0 +1,774 @@
+[
+  {
+    "label": "Desayunos",
+    "intro": "Todos los días desde las 7:00.",
+    "notes": [
+      "Todos nuestros desayunos incluyen un herraje, café o té de manzanilla.",
+      "El cambio de guarniciones o extras tiene un costo adicional."
+    ],
+    "pages": [
+      1,
+      2,
+      3
+    ],
+    "items": [
+      {
+        "name": "Vaquero",
+        "price": 85,
+        "desc": "Incluye entrada (avena con leche). Huevos estrellados o revueltos simples, acompañado de delicioso puyazo importado, chorizo, frijoles, salsa, dos plátanos fritos, crema, pan simple o tortillas.",
+        "photo": "vaquero",
+        "round": true
+      },
+      {
+        "name": "Finquero",
+        "price": 65,
+        "desc": "Huevos estrellados o revueltos simples, acompañado de deliciosa carne adobada, frijoles, salsa, dos plátanos fritos, crema, pan simple o tortillas.",
+        "photo": "finquero",
+        "round": true
+      },
+      {
+        "name": "Salvadoreño",
+        "price": 59,
+        "desc": "Huevos estrellados o revueltos simples, acompañado de frijoles, dos plátanos fritos, crema, dos pupusas, salsa, pan simple o tortillas.",
+        "photo": "salvadoreno",
+        "round": true
+      },
+      {
+        "name": "Campestre",
+        "price": 55,
+        "desc": "Huevos estrellados o revueltos simples, dos dobladas de queso, dos panqueques con miel, longaniza, jamón, salsa, pan simple o tortillas.",
+        "photo": "campestre",
+        "round": true
+      },
+      {
+        "name": "Sanluqueño",
+        "price": 55,
+        "desc": "Huevos revueltos con chorizo molido, acompañado de dos plátanos fritos, crema, frijoles, panqueque de elote, salsa, pan simple o tortillas.",
+        "photo": "sanluqueno",
+        "round": true
+      },
+      {
+        "name": "Omelette al gusto",
+        "price": 55,
+        "desc": "Omelette de un ingrediente a tu elección (jamón, champiñones, tocino o pollo), con queso mozzarella, sobre una cama de frijoles y chips, pan simple o tortillas.",
+        "photo": "omelette",
+        "round": true
+      },
+      {
+        "name": "Saludable",
+        "price": 55,
+        "desc": "Huevos duros, montados sobre una rodaja de pan integral, con lascas de aguacate, acompañado de yogurt, fruta de temporada, jugo de naranja Rabinal y café.",
+        "photo": "saludable",
+        "round": true
+      },
+      {
+        "name": "Chilaquiles",
+        "price": 45,
+        "desc": "Huevos estrellados, con lascas de aguacate, montados sobre nachos y salsa verde.",
+        "photo": "chilaquiles",
+        "round": true
+      },
+      {
+        "name": "Ranchero",
+        "price": 45,
+        "desc": "Huevos estrellados, bañados de salsa ranchera, frijoles, dos dobladas de queso, tres plátanos fritos, crema, pan simple o tortillas.",
+        "photo": "ranchero",
+        "round": true
+      },
+      {
+        "name": "Americano",
+        "price": 45,
+        "desc": "Huevos estrellados o revueltos simples, acompañado de un hashbrown, tocino, dos panqueques con miel, salsa, pan simple o tortillas.",
+        "photo": "americano",
+        "round": true
+      },
+      {
+        "name": "Clásico",
+        "price": 42,
+        "desc": "Huevos estrellados o revueltos simples, acompañado de salchicha, frijoles, dos plátanos fritos, salsa, crema, pan simple o tortillas.",
+        "photo": "clasico",
+        "round": true
+      },
+      {
+        "name": "Chapata de desayuno",
+        "price": 44,
+        "desc": "Pan chapata con huevos al gusto, jamón, tocino, queso mozzarella. (Incluye café).",
+        "photo": "chapata",
+        "round": true
+      },
+      {
+        "name": "Muffin de huevo",
+        "price": 36,
+        "desc": "Un huevo estrellado con torta de chorizo, queso gratinado. Incluye un hashbrown y jugo de naranja Rabinal.",
+        "photo": "muffin",
+        "round": true
+      },
+      {
+        "name": "Hotcakes",
+        "price": 40,
+        "desc": "Cuatro panqueques, con mermelada de la casa, fruta y café. (Incluye refil).",
+        "photo": "hotcakes",
+        "round": true
+      },
+      {
+        "name": "Hashbrowns",
+        "price": 30,
+        "desc": "Tres porciones, con salsa dulce y mayonesa.",
+        "photo": "hashbrowns",
+        "round": true
+      },
+      {
+        "name": "Plato de fruta",
+        "price": 49,
+        "desc": "Fruta de temporada, acompañada de yogurt, granola y miel.",
+        "photo": "fruta",
+        "round": true
+      },
+      {
+        "name": "Bowl de cereal",
+        "price": 25,
+        "photo": "cereal",
+        "round": true
+      },
+      {
+        "name": "Avena con leche",
+        "price": 20,
+        "photo": "avena",
+        "round": true
+      },
+      {
+        "name": "Infantil",
+        "price": null,
+        "desc": "Un huevo estrellado o revuelto simple acompañado de dos mini panqueques, fruta, miel, salsa y un vaso de 8 oz. de jugo de naranja Rabinal.",
+        "photo": "infantil",
+        "round": true
+      }
+    ],
+    "groups": [],
+    "copas": null
+  },
+  {
+    "label": "Entradas",
+    "intro": "Para compartir mientras llega la parrilla.",
+    "notes": [],
+    "pages": [
+      5
+    ],
+    "items": [
+      {
+        "name": "Alambre de chorizo",
+        "price": 50,
+        "desc": "Delicioso queso fundido con chorizo molido, acompañado de pan con ajo o nachos.",
+        "photo": "alambre"
+      },
+      {
+        "name": "Tortillas con queso fundido",
+        "price": 25,
+        "desc": "Deliciosas tortillas doradas en comal con queso fundido mozzarella y cebollín."
+      },
+      {
+        "name": "Pillows",
+        "price": 25,
+        "desc": "Almohadillas o triángulos rellenos de delicioso queso mozzarella."
+      },
+      {
+        "name": "Nachos",
+        "price": 35,
+        "desc": "Deliciosos nachos, acompañados de carne molida, guacamole, pico de gallo, aderezo cheddar, crema y jalapeño."
+      },
+      {
+        "name": "Sampling de tostadas",
+        "price": 30,
+        "desc": "Una tostada de frijol, una tostada de salsa y una tostada de guacamole."
+      },
+      {
+        "name": "Tortillas con carne",
+        "price": 49,
+        "desc": "¡A tu gusto! Elige entre carne de res o adobado, servida con tortillas doradas al comal, guacamole, chirmol y cebollín."
+      },
+      {
+        "name": "Canastas de plátano mar y tierra",
+        "price": 95,
+        "desc": "Canasta de plátanos rellena de camarón, carne de res y delicioso pico de gallo."
+      }
+    ],
+    "groups": [],
+    "copas": null
+  },
+  {
+    "label": "Churrascos y asados",
+    "intro": "Carnes a la parrilla, servidas al punto.",
+    "notes": [
+      "Nuestros churrascos van servidos con tres guarniciones del día y un acompañamiento."
+    ],
+    "pages": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "items": [
+      {
+        "name": "Asado premium",
+        "price": 160,
+        "desc": "¡A tu gusto! Elige entre: 8 onzas de tiras de carne, lomito o New York. Servido con guacamole, gallo pinto y longaniza.",
+        "photo": "asado-premium",
+        "featured": true
+      },
+      {
+        "name": "Asado personal",
+        "desc": "Servido con longaniza artesanal, dos guarniciones del día y un acompañamiento.",
+        "options": [
+          {
+            "label": "8 onzas de puyazo",
+            "price": 120
+          },
+          {
+            "label": "12 onzas de puyazo",
+            "price": 185
+          },
+          {
+            "label": "Mixto puyazo, adobado o pollo (4 oz. cada uno)",
+            "price": 115
+          }
+        ],
+        "photo": "asado-personal",
+        "featured": true
+      },
+      {
+        "name": "Mar y tierra",
+        "price": 195,
+        "desc": "8 onzas de puyazo o lomito, seis camarones al ajillo. Servido con guacamole, papa frita, picante y chirmol.",
+        "photo": "mar-y-tierra",
+        "featured": true
+      },
+      {
+        "name": "Puyazo",
+        "price": 79,
+        "desc": "Churrasco servido con tres guarniciones del día y un acompañamiento."
+      },
+      {
+        "name": "Lomito",
+        "price": 85,
+        "desc": "Churrasco servido con tres guarniciones del día y un acompañamiento."
+      },
+      {
+        "name": "Mixto adobado - adobado",
+        "price": 85,
+        "desc": "Churrasco servido con tres guarniciones del día y un acompañamiento."
+      },
+      {
+        "name": "Mixto res manita - adobado",
+        "price": 90,
+        "desc": "Churrasco servido con tres guarniciones del día y un acompañamiento."
+      },
+      {
+        "name": "Doble carne de res manita",
+        "price": 95,
+        "desc": "Churrasco servido con tres guarniciones del día y un acompañamiento."
+      },
+      {
+        "name": "Tablazo de chorizo",
+        "desc": "Servidos con guacamole, cebollines, chirmol y tortillas doradas con chimichurri.",
+        "options": [
+          {
+            "label": "1/2 libra de chorizo (argentino o longaniza)",
+            "price": 50
+          },
+          {
+            "label": "1/2 libra de chorizo argentino y 1/2 libra de longaniza",
+            "price": 70
+          }
+        ],
+        "photo": "tablazo"
+      }
+    ],
+    "groups": [],
+    "copas": null
+  },
+  {
+    "label": "Parrilladas",
+    "intro": "Para compartir en familia.",
+    "notes": [
+      "Nuestras parrilladas son servidas con 2 guarniciones del día, sopa de entrada, acompañadas de pan con ajo o tortillas."
+    ],
+    "pages": [
+      10
+    ],
+    "items": [
+      {
+        "name": "La Chispuda",
+        "price": 225,
+        "desc": "4 onzas de puyazo, 4 onzas de lomito y 4 onzas de adobado, 1 chorizo, 1 longaniza, salsa picante, cebollines asados y chirmol.",
+        "serves": "Para 2 personas"
+      },
+      {
+        "name": "La Chapina",
+        "price": 530,
+        "desc": "1/2 libra de puyazo, 1/2 libra de lomito, 1/2 libra de adobado, 2 chorizos, 2 longanizas, salsa picante, cebollines asados y chirmol.",
+        "serves": "Para 4 personas"
+      },
+      {
+        "name": "La Sanluqueña",
+        "price": 650,
+        "desc": "1 libra de puyazo, 1 libra de lomito, 1 libra de adobado, 3 chorizos, 3 longanizas, salsa picante, cebollines asados y chirmol.",
+        "serves": "Para 6 personas"
+      }
+    ],
+    "groups": [],
+    "copas": null
+  },
+  {
+    "label": "Mariscos",
+    "intro": "Del mar a la parrilla.",
+    "notes": [],
+    "pages": [
+      11
+    ],
+    "items": [
+      {
+        "name": "Pasta de camarones",
+        "price": 99,
+        "photo": "pasta-camarones",
+        "featured": true
+      },
+      {
+        "name": "Mojarra al ajillo o frita",
+        "price": 90,
+        "desc": "Servido con guacamole, arroz, papas fritas y un acompañamiento.",
+        "photo": "mojarra"
+      },
+      {
+        "name": "6 camarones al ajillo",
+        "price": 80,
+        "desc": "Servido con guacamole, arroz, papas fritas y un acompañamiento."
+      },
+      {
+        "name": "6 camarones empanizados",
+        "price": 85,
+        "desc": "Servido con guacamole, arroz, papas fritas y un acompañamiento."
+      },
+      {
+        "name": "Ceviche grande",
+        "price": 89
+      },
+      {
+        "name": "Crema de mariscos",
+        "price": 115,
+        "desc": "Incluye arroz y tostones.",
+        "photo": "crema-mariscos"
+      }
+    ],
+    "groups": [],
+    "copas": null
+  },
+  {
+    "label": "Hamburguesas",
+    "intro": "Tortas de res artesanales, en pan tostado a la plancha.",
+    "notes": [
+      "Todas las hamburguesas incluyen una orden de papas fritas."
+    ],
+    "pages": [
+      12,
+      13
+    ],
+    "items": [
+      {
+        "name": "Tejana",
+        "price": 69,
+        "desc": "Doble torta de res artesanal con BBQ, sobre pan tostado a la plancha con aderezo de la casa, aros de cebolla, jalapeño, tocino, queso cheddar y lechuga.",
+        "photo": "tejana"
+      },
+      {
+        "name": "Puyazo",
+        "price": 69,
+        "desc": "Torta de puyazo, sobre pan tostado a la plancha con aderezo de la casa, champiñones salteados, lechuga, cebolla, bañado de queso mozzarella.",
+        "photo": "burger-puyazo"
+      },
+      {
+        "name": "Mar y tierra",
+        "price": 69,
+        "desc": "Tortas de carne artesanal, camarones salteados, cebolla caramelizada, aderezo y bañada de queso fundido.",
+        "photo": "burger-mar-tierra"
+      },
+      {
+        "name": "Torito",
+        "price": 59,
+        "desc": "Torta de res artesanal, sobre pan tostado a la plancha con aderezo de la casa, huevo, tocino, queso cheddar, lechuga, tomate y cebolla.",
+        "photo": "torito"
+      },
+      {
+        "name": "Pollo Crispy",
+        "price": 59,
+        "desc": "Filete de pollo empanizado crispy, sobre pan tostado a la plancha con aderezo de la casa, queso cheddar, cebolla y lechuga.",
+        "photo": "pollo-crispy"
+      },
+      {
+        "name": "Clásica",
+        "price": 49,
+        "desc": "Deliciosa torta de res artesanal, sobre pan tostado a la plancha con aderezo de la casa, queso cheddar, lechuga, tomate y cebolla."
+      }
+    ],
+    "groups": [],
+    "copas": null
+  },
+  {
+    "label": "Panes con carne",
+    "intro": "En pan chapata, a la plancha.",
+    "notes": [
+      "Incluyen una orden de papas fritas."
+    ],
+    "pages": [
+      14
+    ],
+    "items": [
+      {
+        "name": "Puyazo o lomito",
+        "price": 65,
+        "desc": "Delicioso pan chapata relleno de lomito o puyazo a la plancha con queso mozzarella fundido, aderezo de la casa."
+      },
+      {
+        "name": "Adobado o pollo",
+        "price": 55,
+        "desc": "Delicioso pan chapata relleno de pollo o adobado a la plancha con queso mozzarella fundido, aderezo de la casa."
+      }
+    ],
+    "groups": [],
+    "copas": null
+  },
+  {
+    "label": "Antojitos y postres",
+    "intro": "Lo típico y lo dulce.",
+    "notes": [],
+    "pages": [
+      15
+    ],
+    "items": [],
+    "groups": [
+      {
+        "title": "Antojitos",
+        "items": [
+          {
+            "name": "Rellenitos de frijol dulce",
+            "price": 20
+          },
+          {
+            "name": "Plátanos fritos con crema",
+            "price": 20
+          },
+          {
+            "name": "Mole de plátanos",
+            "price": 25
+          },
+          {
+            "name": "Tostada de guacamole",
+            "price": 10
+          },
+          {
+            "name": "Tostada de frijol",
+            "price": 10
+          },
+          {
+            "name": "Flauta rellena de pollo",
+            "price": 12
+          },
+          {
+            "name": "Torreja (por temporada)",
+            "price": 25
+          }
+        ]
+      },
+      {
+        "title": "Postres",
+        "items": [
+          {
+            "name": "Crepa de banano y Nutella",
+            "price": 35
+          },
+          {
+            "name": "Crepa de fresa y Nutella",
+            "price": 35
+          },
+          {
+            "name": "Crepa de melocotón y Nutella",
+            "price": 35
+          }
+        ]
+      }
+    ],
+    "copas": null
+  },
+  {
+    "label": "Bebidas y extras",
+    "intro": "Calientes, frías y para acompañar.",
+    "notes": [],
+    "pages": [
+      16,
+      4
+    ],
+    "items": [],
+    "groups": [
+      {
+        "title": "Bebidas",
+        "items": [
+          {
+            "name": "Té",
+            "price": 5
+          },
+          {
+            "name": "Leche entera",
+            "price": 5
+          },
+          {
+            "name": "Leche descremada",
+            "price": 7
+          },
+          {
+            "name": "Taza de leche",
+            "price": 15
+          },
+          {
+            "name": "Café",
+            "price": 10,
+            "review": "Q10 en la carta de bebidas, Q12 en la de desayunos"
+          },
+          {
+            "name": "Capuccino",
+            "price": 25
+          },
+          {
+            "name": "Gaseosas",
+            "price": 10
+          },
+          {
+            "name": "Chocolate de Xela",
+            "price": 15
+          },
+          {
+            "name": "Chocolate de Xela con leche",
+            "price": 20
+          },
+          {
+            "name": "Licuados",
+            "price": 15
+          },
+          {
+            "name": "Licuado mixto",
+            "price": 18
+          },
+          {
+            "name": "Licuados con leche",
+            "price": 20
+          },
+          {
+            "name": "Licuado mixto con leche",
+            "price": 25
+          },
+          {
+            "name": "Licuado con leche deslactosada",
+            "price": 27
+          }
+        ]
+      },
+      {
+        "title": "Extras",
+        "items": [
+          {
+            "name": "Champiñones",
+            "price": 5
+          },
+          {
+            "name": "Pupusa (unidad)",
+            "price": 10
+          },
+          {
+            "name": "Frijol",
+            "price": 8
+          },
+          {
+            "name": "Tamalitos de chipilín",
+            "price": 8
+          },
+          {
+            "name": "Tamal simple",
+            "price": 3
+          },
+          {
+            "name": "Tortilla",
+            "price": 1
+          },
+          {
+            "name": "Pan con ajo",
+            "price": 5
+          },
+          {
+            "name": "Pan con mantequilla",
+            "price": 5
+          },
+          {
+            "name": "Dos dobladas de queso",
+            "price": 12
+          },
+          {
+            "name": "Guacamole",
+            "price": 8
+          },
+          {
+            "name": "Tortillas gratinadas",
+            "price": 15
+          },
+          {
+            "name": "Plátanos",
+            "price": 10
+          },
+          {
+            "name": "Crema",
+            "price": 2
+          },
+          {
+            "name": "Salsa",
+            "price": 5
+          },
+          {
+            "name": "Chirmol",
+            "price": 5
+          },
+          {
+            "name": "Jamón",
+            "price": 5
+          },
+          {
+            "name": "Tomate y cebolla",
+            "price": 5
+          },
+          {
+            "name": "Tocino",
+            "price": 8
+          },
+          {
+            "name": "Longaniza",
+            "price": 10
+          },
+          {
+            "name": "Chorizo molido",
+            "price": 10
+          },
+          {
+            "name": "Salsa dulce",
+            "price": 5
+          },
+          {
+            "name": "Mayonesa",
+            "price": 5
+          },
+          {
+            "name": "Porción de huevo",
+            "price": 12
+          },
+          {
+            "name": "Huevo (unidad)",
+            "price": 6
+          },
+          {
+            "name": "Nutella",
+            "price": 8
+          },
+          {
+            "name": "Miel",
+            "price": 2
+          }
+        ]
+      }
+    ],
+    "copas": {
+      "cols": [
+        "Mediana",
+        "Grande",
+        "Pichel"
+      ],
+      "rows": [
+        {
+          "name": "Limonada",
+          "prices": [
+            15,
+            20,
+            68
+          ],
+          "review": "Precio de mediana parcialmente cubierto en la carta"
+        },
+        {
+          "name": "Limonada rosa",
+          "prices": [
+            20,
+            28,
+            75
+          ]
+        },
+        {
+          "name": "Limonada con hierbabuena",
+          "prices": [
+            20,
+            28,
+            75
+          ]
+        },
+        {
+          "name": "Maracuyá",
+          "prices": [
+            20,
+            28,
+            75
+          ]
+        },
+        {
+          "name": "Horchata",
+          "prices": [
+            20,
+            28,
+            75
+          ]
+        },
+        {
+          "name": "Rosa de Jamaica",
+          "prices": [
+            15,
+            20,
+            68
+          ]
+        },
+        {
+          "name": "Naranjada con soda",
+          "prices": [
+            null,
+            30,
+            null
+          ]
+        },
+        {
+          "name": "Limonada con soda",
+          "prices": [
+            null,
+            27,
+            null
+          ]
+        },
+        {
+          "name": "Cimarrona",
+          "prices": [
+            null,
+            27,
+            null
+          ]
+        },
+        {
+          "name": "Jugo de naranja",
+          "prices": [
+            25,
+            null,
+            null
+          ]
+        }
+      ]
+    }
+  }
+]
